@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import queryString from 'query-string';
 
 /** onMount,
@@ -7,11 +7,11 @@ import queryString from 'query-string';
  * and execute a redirect if it exists
  */
 export const useRedirectQuery = () => {
-  const history = useHistory();
+  const nav = useNavigate();
   useEffect(() => {
-    const { redirect } = queryString.parse(history.location.search);
+    const { redirect } = queryString.parse(nav.location.search);
     if (redirect) {
-      history.replace(redirect);
+      nav.replace(redirect);
     }
   }, []);
 };
