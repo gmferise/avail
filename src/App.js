@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { useRedirectQuery } from './util/hooks';
 
 import './App.css';
@@ -10,9 +10,9 @@ function App() {
   useRedirectQuery();
   return (
     <div className="App">
-      <Switch>
+      <Routes>
         <Route path="/" component={HomePage} />
-      </Switch>
+      </Routes>
     </div>
   );
 }
