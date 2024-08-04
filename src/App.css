@@ -1,0 +1,58 @@
+:root {
+  --bg: #1e1e1e;
+  --bg-dim: #303030;
+  --fg: #ffffff;
+  --fg-dim: #e0e0e0;
+  --primary: #45ea7b;
+  --accent: #223f64;
+  --fs-large: 36px;
+  --fs-medium: 24px;
+  --fs-small: 16px;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+body * {
+  font-size: var(--fs-medium);
+  font-family: 'Consolas', sans-serif, monospace;
+}
+
+button {
+  display: block;
+  background-color: #1E1E1E;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  margin: 0px 16px;
+  padding: 16px 0px;
+  border-bottom: 2px solid var(--accent);
+}
+
+main {
+  margin-top: 16px;
+  padding: 0 16px;
+}
+
+a {
+  color: var(--fg);
+  background-color: var(--bg);
+  padding: 0 4px;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+a:hover {
+  color: var(--fg-dim);
+  background-color: var(--bg-dim);
+  border-color: var(--fg-dim);
+}
