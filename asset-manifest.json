@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/avail/static/css/main.a888ef45.css",
-    "main.js": "/avail/static/js/main.e1fae221.js",
+    "main.css": "/avail/static/css/main.e90b5184.css",
+    "main.js": "/avail/static/js/main.d9defca3.js",
     "static/media/TheSansMonoV.woff2": "/avail/static/media/TheSansMonoV.842577b4446d54577cb7.woff2",
     "index.html": "/avail/index.html",
-    "main.a888ef45.css.map": "/avail/static/css/main.a888ef45.css.map",
-    "main.e1fae221.js.map": "/avail/static/js/main.e1fae221.js.map"
+    "main.e90b5184.css.map": "/avail/static/css/main.e90b5184.css.map",
+    "main.d9defca3.js.map": "/avail/static/js/main.d9defca3.js.map"
   },
   "entrypoints": [
-    "static/css/main.a888ef45.css",
-    "static/js/main.e1fae221.js"
+    "static/css/main.e90b5184.css",
+    "static/js/main.d9defca3.js"
   ]
 }
