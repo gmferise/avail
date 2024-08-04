@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useRedirectQuery } from './util/hooks';
 
@@ -8,6 +8,9 @@ import HomePage from './view/HomePage';
 
 function App() {
   useRedirectQuery();
+  useEffect(() => {
+    document.title = 'Avail';
+  }, []);
   return (
     <div className="App">
       <Routes>
